@@ -1,0 +1,17 @@
+{
+  "name": "react-typescript-by-example",
+  "version": "1.0.0",
+  "description": "A step-by-step example of building a React app with TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.html",
+    "start": "parcel src/index.html"
+  },
+  "author": "Jesse M. Holmes",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "1.10.3",
+    "typescript": "^3.2.2"
+  }
+}
