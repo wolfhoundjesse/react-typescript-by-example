@@ -1,8 +1,8 @@
 # 00 Boilerplate
 
-In this sample we are going to setup the basic plumbing to "build" our project and launch it in a dev server.
+In this example we are going to setup the basic plumbing to "build" our project and launch it in a dev server.
 
-Summary steps:
+## Summary:
 
 - Prerequisites: Install Node.js
 - Initialize **[package.json](./package.json)** (with `npm init`)
@@ -10,18 +10,11 @@ Summary steps:
 - Create a test ts file.
 - Create a simple HTML file.
 
-# Prerequisites
-
-Install [Node.js and npm](https://nodejs.org/en/) if they are not already installed on your computer.
-
-> Verify that you are running at least node v8.x.x and npm 5.x.x by running `node -v` and `npm -v` in a terminal/console window. Older versions may produce errors.
-
 ## Create a New Project
 
 - Create and navigate to the folder where you are going to create the empty project.
 
-- Execute `npm init`, you will be prompted to answer some information request
-about the project (e.g. set name to _react-typescript-by-example_ and description to _Sample working with React,TypeScript and Parcel_).
+- Initialize your project in the folder you created. You will be prompted to answer some questions about the project (e.g. set name to _react-typescript-by-example_).
 Once you have answered all the prompts a **package.json** file we will generated.
 
  ```bash
@@ -34,14 +27,14 @@ Once you have answered all the prompts a **package.json** file we will generated
  npm i -D parcel-bundler
  ```
 
-- Create a subfolder called **src** and create a basic **index.ts** file inside:
+- Create a folder called **src** and create a basic **index.ts** file inside:
 
 _[src/index.ts](./src/index.ts)_
  ```javascript
 document.write('Hello from index.ts!');
  ```
 
-- Create a basic **[index.html](./src/index.html)** file (in **src** folder) and include the indext.ts file as a script:
+- Create a basic **index.html** file (in **src** folder), and include the **index.ts** file as a script:
 
 _[src/index.html](./src/index.html)_
  ```html

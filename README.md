@@ -8,7 +8,7 @@ I spent three years growing alongside Angular and the tooling involved. The expe
 
 *Previous React experience is **not** required.*
 
-Each numbered folder will build on the previous folder. This means the instructions in each will closely resemble, "This example builds on _XX Name_. To begin, copy _XX Name_ into a new location and run `npm install`. There will _definitely_ be consistency errors that will be cleaned up over time. 
+Each numbered folder will build on the previous folder. This means the instructions in each will closely resemble, "This example builds on _XX Name_. To begin, copy _XX Name_ into a new location and run `npm install`. You can also just open each folder step-by-step and continue building in the same directory. 🤷‍ There will _definitely_ be consistency errors to be cleaned up over time. 
 
 ## Caveats
 
