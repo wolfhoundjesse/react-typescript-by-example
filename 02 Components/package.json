@@ -8,7 +8,7 @@
     "build": "parcel build src/index.html"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "bootswatch": "^4.1.3",
