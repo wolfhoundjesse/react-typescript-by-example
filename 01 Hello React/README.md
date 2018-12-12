@@ -1,29 +1,20 @@
 # 01 Hello React
 
-In this sample we will create a react component and connect it with the DOM via react-dom.
+In this example we will create a react component and connect it with the DOM via react-dom.
 
-We will take a startup point sample _00 Genesis_.
-
-Summary steps:
+## Summary
 
 - Install react and react-dom.
 - Install react and react-dom TypeScript definitions.
-- Update the index.html to create a placeholder for the react components.
+- Update index.html to create a placeholder for the react components.
 - Create a simple react component.
 - Wire up this component by using react-dom.
 
-## Prerequisites
-
-Install [Node.js and npm](https://nodejs.org/en/) (v8.9.4 or higher) if they are not already installed on your computer.
-
-> Verify that you are running at least node v8.x.x and npm 5.x.x by running `node -v` and `npm -v`
-in a terminal/console window. Older versions may produce errors.
-
 ## Steps to build it
 
-- Copy the content of the `00 Boilerplate` folder to an empty folder for the sample.
+- Copy the content of the `00 Genesis` folder to an empty folder for the sample.
 
-- Install the npm packages described in the [./package.json](./package.json) and verify that it works:
+- Install the npm packages described in [package.json](./package.json), and verify that it works.
 
  ```bash
  npm install
@@ -32,14 +23,14 @@ in a terminal/console window. Older versions may produce errors.
 - Install `react` and `react-dom` libraries as project dependencies.
 
  ```bash
- npm install react react-dom --save
+ npm i react react-dom
  ```
 
 - Install also the typescript definitions for `react` and `react-dom`
 but as dev dependencies.
 
  ```bash
- npm install @types/react @types/react-dom --save-dev
+ npm i -D @types/react @types/react-dom
  ```
 
 - Update [src/index.html](./src/index.html) to create a placeholder for the react components.
@@ -61,7 +52,7 @@ _[src/index.html](./src/index.html)_
 </html>
 ```
 
-- Create a simple react component (let's create it within a new file called `hello.tsx` in `src`folder).
+- Create a simple react component.
 
 _[src/hello.tsx](./src/hello.tsx)_
 ```tsx
@@ -74,8 +65,7 @@ export const HelloComponent: React.FunctionComponent<{}> = () => {
 }
 ```
 
-- Wire up this component by using `react-dom` under [src/index.tsx](./src/index.tsx) (we have to rename
-  this file extension from `ts` to `tsx` and replace the content).
+- Wire up this component by using `react-dom` in [src/index.tsx](./src/index.tsx) (we have to rename this file extension from `ts` to `tsx` and replace the content).
 
 _[src/index.tsx](./src/index.tsx)_
 ```diff
@@ -92,7 +82,7 @@ _[src/index.tsx](./src/index.tsx)_
 + );
 ```
 
-- Start the example:
+- Start the example.
 
  ```bash
  npm start

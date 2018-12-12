@@ -1,12 +1,11 @@
 {
   "name": "react-typescript-by-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "A step-by-step example of building a React app with TypeScript",
   "main": "index.js",
   "scripts": {
     "build": "parcel build src/index.html",
-    "start": "parcel src/index.html",
-    "test": "jest --watchAll"
+    "start": "parcel src/index.html"
   },
   "author": "",
   "license": "ISC",
@@ -16,8 +15,8 @@
     "react-dom": "^16.6.3"
   },
   "devDependencies": {
-    "@types/react": "^16.7.7",
-    "@types/react-dom": "^16.0.10",
-    "typescript": "^3.1.6"
+    "@types/react": "^16.7.13",
+    "@types/react-dom": "^16.0.11",
+    "typescript": "^3.2.2"
   }
 }
