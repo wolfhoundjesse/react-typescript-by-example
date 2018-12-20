@@ -1,16 +1,16 @@
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: auto auto 50px;
     grid-template-areas:
-        ". . . h h h h h h . . ."
-        ". . . c c c c c c . . .";
+        ". header ."
+        ". content .";
 }
 
 .header {
-    grid-area: h;
+    grid-area: header;
 }
 
 .content {
-    grid-area: c;
+    grid-area: content;
 }
