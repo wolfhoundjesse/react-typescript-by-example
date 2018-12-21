@@ -1,0 +1,31 @@
+{
+  "name": "react-typescript-by-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "bootswatch": "^4.1.3",
+    "list": "^2.0.16",
+    "parcel-bundler": "^1.10.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-router-dom": "^4.3.1",
+    "toastr": "^2.1.4"
+  },
+  "devDependencies": {
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/toastr": "^2.1.35",
+    "guid-typescript": "^1.0.9",
+    "sass": "^1.15.1",
+    "typescript": "^3.1.6"
+  }
+}
