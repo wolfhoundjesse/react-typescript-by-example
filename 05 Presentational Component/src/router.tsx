@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import { App } from './app';
 import { AboutPage } from './about';
-import { ClientsPage } from './clients';
+import { ClientsList} from './clients';
 
 export const AppRouter: React.FunctionComponent<{}> = () => {
   return (
@@ -12,7 +12,7 @@ export const AppRouter: React.FunctionComponent<{}> = () => {
         <Switch>
           <Route exact path="/" component={AboutPage} />
           <Route path="/about" component={AboutPage} />
-          <Route path="/clients" component={ClientsPage} />
+          <Route path="/clients" component={ClientsList} />
         </Switch>
       </React.Fragment>
     </Router>

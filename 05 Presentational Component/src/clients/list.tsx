@@ -11,7 +11,7 @@ interface State {
 
 interface Props { }
 
-export class ClientsPage extends React.Component<Props, State> {
+export class ClientsList extends React.Component<Props, State> {
   constructor(props) {
     super(props);
     this.state = { clients: [] };

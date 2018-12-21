@@ -1,4 +1,4 @@
-# 05 Presentational Comp
+# 05 Presentational Component
 
 In this sample we will refactor the client component into three separate components: header, table and row components, and the client rows will be passed via props.
 
