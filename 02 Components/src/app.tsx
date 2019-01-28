@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Header } from './common';
-import { AboutPage } from './about';
+import { AboutPage } from './About';
 
 export const App: React.FunctionComponent<{}> = () => {
   return (
