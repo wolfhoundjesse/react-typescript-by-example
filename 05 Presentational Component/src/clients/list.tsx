@@ -1,8 +1,8 @@
 import * as React from 'react';
 
 import { Client } from '../models';
-import { ClientsHeader } from './header';
-import { ClientsRow } from './row';
+import { ClientsHeader } from './Header';
+import { ClientsRow } from './Row';
 import { clientAPI } from '../api';
 
 interface State {
